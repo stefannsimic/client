@@ -1,0 +1,151 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 3, 2019, 12:19:09 PM
+    Author     : frontend
+*/
+
+
+/*
+
+> 0px   XS - NO NAME
+
+
+> 576px SM - small devices
+
+
+
+> 768px MD  - medium devices
+
+
+> 992px  LG    large devices
+
+
+
+> 1200px  XL   extra large devices
+
+*/
+
+
+
+@media( min-width:576px){
+    
+    .footer-section p{
+        font-size: 12px;
+    }
+    
+    .gallery .fa-regular{
+        left: 30%;
+    }
+    
+    .client .client-title{
+        width: 350px;
+    }
+    
+    .paid-plan .paid-plan-item .btn{
+    margin-bottom: 100px;
+}
+}
+
+
+
+
+@media(min-width:768px){
+
+    .slider-section .slider-item{
+        margin-top: 30px;
+    }
+
+    .slider-section .slider-picture{
+        margin-top: 58px;
+    }
+
+    .slider-section .slider-item .slider-text{
+        margin-bottom: 20px;
+    }
+    
+    .footer-section p{
+        font-size: 16px;
+    }
+    
+    .gallery .fa-regular{
+        left: 33%;
+    }
+
+
+}
+
+
+@media(min-width:992px){
+
+    .navbar-nav .nav-link {
+
+        border-bottom: 2px solid transparent;
+        padding: 20px;
+    } 
+
+    .navbar-nav .nav-item{
+        margin-left: 38px;
+    }
+
+    .slider-section .slider-item{
+        margin-top: 160px;
+    }
+
+    .slider-section .slider-item .slider-text{
+        margin-bottom: 84px;
+    }
+    
+    .pricing .pricing-text{
+        margin-bottom: 88px;
+    }
+    
+    .paid-plan .paid-plan-title{
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+    
+    
+    .gallery .fa-regular{
+        left: 37%;
+    }
+    
+
+
+
+
+}
+
+
+@media(min-width:1200px){
+
+    .container{
+        max-width: 1140px;
+    }
+
+    .navbar-nav .nav-item{
+        margin-left: 38px;
+    }
+
+    .paid-plan .paid-plan-group2{
+        margin-bottom: 30px;
+    }
+
+    .paid-plan .paid-plan-title{
+        padding-left: 230px;
+        padding-right: 230px;
+    }
+    
+    .gallery .fa-regular{
+        left: 40%;
+    }
+    
+    .paid-plan .paid-plan-item .btn{
+    margin-bottom: 173px;
+}
+    
+
+}

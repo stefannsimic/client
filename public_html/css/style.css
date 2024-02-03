@@ -1,0 +1,426 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 3, 2019, 12:19:01 PM
+    Author     : frontend
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+/*
+
+font-family: 'Rubik', sans-serif;
+
+*/
+
+
+img{
+    max-width: 100%;
+}
+
+
+body{
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1, h2,h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+
+p{
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.bg-bitcoin{
+    background-color: #313A5A;
+}
+
+.navbar-brand{
+    max-width: 50%;
+}
+
+.navbar-toggler span{
+    width: 30px;
+    height: 3px;
+    margin-bottom: 5px;
+    display: block;
+    background-color: #1FDB84;
+}
+
+.navbar-toggler span:last-of-type{
+    margin-bottom: 0;
+}
+
+.navbar-nav .nav-link {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.46px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    text-align: center;
+    border-bottom: 4px solid #fff;
+}
+
+ .navbar-nav .nav-link.active,
+ .navbar-nav .nav-link:hover
+{
+     border-bottom: 4px solid #1FDB84;
+}
+
+.navbar-nav .nav-item .login{
+    color: #1FDB84;
+}
+
+.navbar-nav .nav-item .register{
+    
+    border-bottom: none;
+    padding: 6px 28px 6px 28px;
+    background-color: #1FDB84;
+    margin-top: 15px;
+    border-radius: 0.25rem;
+}
+
+
+/*SLIDER SECTION*/
+
+
+.slider-section{
+    background-color: #313A5A;
+}
+
+.slider-picture{
+    float: right;
+}
+
+.slider-section .slider-item{
+    margin-top: 20px;
+}
+
+.slider-section .slider-item h3{
+    margin-bottom: 40px;
+    font-size: 48px;
+}
+
+.slider-section .slider-item .slider-text{
+    margin-bottom: 84px;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.slider-section .slider-item .btn{
+    background-color: #1FDB84;
+    padding: 18px 55px 18px 48px;
+}
+
+
+.slider-section .owl-dots{
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+}
+.slider-section .owl-dots .owl-dot span{
+   width: 9px;
+   height: 9px;
+   border-radius: 50%;
+   border: 2px solid #1FDB84;
+   background-color: #313A5A !important;
+   opacity: 1;
+}
+
+.slider-section .owl-dots .owl-dot.active span{
+    opacity: 1;
+    background-color: #1FDB84 !important;
+}
+
+.slider-section .owl-nav{
+    position: absolute;
+    top:50%;
+    left: 0;
+    width: 100%;
+}
+
+.slider-section .owl-nav .owl-prev{
+    position: absolute;
+    left: 0px;
+    top:50%;
+    transform: translateY(-50%);
+}
+.slider-section .owl-nav .owl-next{
+    position: absolute;
+    right: 0px;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+
+.slider-section  .owl-nav .fas{
+    font-size: 30px;
+    color:#1FDB84;
+}
+
+
+
+
+
+
+/*Pricing SECTION*/
+
+.pricing{
+   background:  #F8F9FC;
+}
+
+
+.pricing .pricing-div{
+    background:  white;
+    margin-bottom: 98px;
+}
+
+
+
+.pricing .pricing-picture{
+    margin-top: 66px;
+}
+
+.pricing .pricing-title:after{
+    content: '';
+    height: 4px;
+    width: 60px;
+    background-color:  #1FDB84;
+    display: block;
+    position: relative;
+    margin-top: 33px;
+    margin-bottom: 18px;
+}
+
+.pricing .pricing-text{
+   color: #5B6C94; 
+   line-height: 32px;
+   letter-spacing: normal;
+   text-align: left;
+}
+
+.pricing .pricing-title{
+    color: #031D5B;
+}
+
+
+
+
+/*PAiD PLAN*/
+
+
+.paid-plan .paid-plan-item{
+    text-align: center;
+    padding-top: 58px;
+    border-top: 4px solid #F8F9FC;
+}
+
+.paid-plan .paid-plan-item p{
+    color: #5B6C94;
+}
+
+ .paid-plan .paid-plan-item.active,
+ .paid-plan .paid-plan-item:hover
+{
+     border-top: 4px solid #0A8AFF;
+}
+
+
+.pricing .paid-plan-title{
+    text-align: center;
+    color: #32325C;
+    margin-bottom: 82px;
+}
+
+.paid-plan h5{
+    color: #32325C;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.27px;
+    margin-bottom: 31px;
+}
+
+.paid-plan .dollar-text{
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1FDB84;
+}
+
+.paid-plan .month-text{
+    margin-bottom: 60px;
+}
+
+.paid-plan .paid-plan-group1,
+.paid-plan .paid-plan-group2,
+.paid-plan .paid-plan-group3{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.paid-plan .paid-plan-group1{
+    margin-bottom: 108px;
+}
+
+.paid-plan .paid-plan-group2,
+.paid-plan .paid-plan-group3{
+    margin-bottom: 64px;
+}
+
+.paid-plan .paid-plan-item .btn{
+    background-color: #1FDB84;
+    padding: 14px 49px 14px 48px;
+    color: #fff;
+    margin-bottom: 70px;
+}
+
+.paid-plan .paid-plan-text{
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.18px;
+    text-align: center;
+}
+
+
+
+
+
+/*CLIENT SECTION*/
+
+.client{
+    padding-bottom: 152px;
+    background:  linear-gradient(to bottom, rgba(248, 249, 252, 1), rgba(218, 218, 218, 1));
+}
+
+.client .client-title{
+    color: #031D5B;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: normal;
+    text-align: left;
+    width: 300px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 79px;
+    padding-left: 16px;
+}
+
+.client .client-item-picture{
+    margin-bottom: 23px;
+}
+
+.client .client-item-one{
+   background-color: #1FDB84;
+   padding: 80px 78px 82px 64px;
+}
+
+.client .client-item-two{
+    background-color: rgba(255,255,255,0.95);
+    padding: 80px 78px 82px 64px;
+    color: #5B6C94;
+}
+
+.client .client-item-text{
+    margin-bottom: 114px;
+    line-height: 36px;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.client .owl-dots{
+    position: absolute;
+    bottom: -71px;
+    left: 47%;
+}
+
+.client .owl-dots .owl-dot span{
+   width: 9px;
+   height: 9px;
+   border-radius: 50%;
+   border: 1px solid #1FDB84;
+   background-color: #DADADA !important;
+   opacity: 1;
+}
+
+.client .owl-dots .owl-dot.active span{
+    opacity: 1;
+    background-color: #1FDB84 !important;
+}
+
+
+
+/*GALLERY SECTION*/
+
+.gallery{
+    margin-bottom: 72px;
+}
+
+
+.gallery img{
+    width:600px;
+    height: 288px;
+}
+
+.gallery .container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.gallery .fa-regular{
+    font-size: 62px;
+    position: absolute;
+    top: 39%;
+    left: 44%;
+    opacity: 0;
+    color: white;
+    
+}
+
+.gallery .fa-regular:hover{
+    opacity: 1;
+}
+
+
+/*PLATFORM SECTION*/
+
+.platform{
+        margin-bottom: 144px;
+}
+
+
+
+.platform .platform-title{
+    color: #031D5B;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1px;
+}
+
+
+/*FOOTER SECTION*/
+
+.footer-section p{
+ font-size: 9px;
+  color: #5B6C94;
+}
+
+.footer-section .footer-text a{
+ color: #5B6C94;
+ text-decoration: none;
+
+}
+
+
